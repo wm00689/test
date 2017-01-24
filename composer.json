@@ -1,0 +1,16 @@
+{
+    "name": "wm00689/test",
+    "description": "测试",
+    "type": "project",
+    "require": {
+        "setasign/fpdi": "1"
+    },
+    "license": "0.5",
+    "authors": [
+        {
+            "name": "wangmin",
+            "email": "17763768@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
