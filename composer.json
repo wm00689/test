@@ -2,9 +2,6 @@
     "name": "wm00689/test",
     "description": "测试",
     "type": "project",
-    "require": {
-        "setasign/fpdi": "1"
-    },
     "license": "0.5",
     "authors": [
         {
@@ -12,5 +9,14 @@
             "email": "17763768@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ford\\escape\\": "src/ford/escape",
+            "ford\\fusion\\": "src/ford/fusion"
+        }
+    }
 }
